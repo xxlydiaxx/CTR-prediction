@@ -17,3 +17,5 @@ df_new=df_new.drop(['final_gender_code','occupation'], axis=1)
 
 df_new.head(10)
 # df_new.to_csv("user_profile2.csv")
+
+
