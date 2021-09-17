@@ -268,7 +268,7 @@ if __name__ == "__main__":
                       '7day_pv','7day_cart','7day_fav','7day_buy','age_level','pvalue_level','shopping_level',
                       'new_user_class_level','final_gender_code_female','final_gender_code_male','occupation_is_student',
                       'occupation_not_student'] 
-    dense_features =  ['user','time_stamp','cate','brand','ad_customer','ad_price','his_ctr','cms_segid','cms_group_id']   #I代表数值特征 int
+    dense_features =  ['user','time_stamp','cate','brand','ad_customer','ad_price','his_ctr','cms_segid','cms_group_id']   
     col_names = ['click_or_not'] + dense_features + sparse_features
     feature_names = sparse_features + dense_features         
     target = ['clk_or_not']                                      
